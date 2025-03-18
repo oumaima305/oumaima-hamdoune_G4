@@ -215,6 +215,10 @@ print("PG ",m0, "----->", k0)
 argmax(l)
 
 
+
+
+
+
 ## Manipulations de listes
 
 Nous présentons dans ce qui suit les opérations élémentaires de manipulation de listes.
