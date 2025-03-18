@@ -200,6 +200,8 @@ Pour tous ces parcours de listes, il est conseillé d'utiliser des noms de varia
 Si cette valeur maximale est présente plusieurs fois dans la liste, on retournera l'indice de sa première occurrence.
 ```
 ### Correction
+
+````
 def argmax(l):
     k, m= 0, l[0]
     for i,e in enumerate(l[1:]):
@@ -211,15 +213,6 @@ l= [3,8,12,4,15,-1]
 k0,m0= argmax(l)
 print("PG ",m0, "----->", k0)
 argmax(l)
-````
-<div id="pad_4.1" class="pad"></div>
-<script>
-    Pythonpad('pad_4.1', 
-              {'id': '4.1', 
-               'title': 'Testez votre solution ici', 
-               'src': '# Complétez ce code'})
-</script>
-
 ````{admonition} Solution
 :class: tip, dropdown
 
