@@ -207,14 +207,11 @@ def argmax(l):
             k,m=i, e
            
     return k+1,m # k indice du plus grand, m plus grand
-       
-       
-       
 l= [3,8,12,4,15,-1]
 k0,m0= argmax(l)
 print("PG ",m0, "----->", k0)
 argmax(l)
-
+````
 <div id="pad_4.1" class="pad"></div>
 <script>
     Pythonpad('pad_4.1', 
