@@ -213,25 +213,7 @@ l= [3,8,12,4,15,-1]
 k0,m0= argmax(l)
 print("PG ",m0, "----->", k0)
 argmax(l)
-````{admonition} Solution
-:class: tip, dropdown
 
-```python
-def argmax(liste):
-    i_max = None
-    # On initialise elem_max à une valeur
-    # qui n'est clairement pas le max
-    if len(liste) > 0:
-        elem_max = liste[0] - 1  
-    for i, elem in enumerate(liste):
-        if elem > elem_max:
-            i_max = i
-            elem_max = elem
-    return i_max
-
-print(argmax([1, 6, 2, 4]))
-```
-````
 
 ## Manipulations de listes
 
